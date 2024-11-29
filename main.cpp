@@ -6,5 +6,10 @@ int main(){
 
   cout << "How many numbers ";
   cin >> n;
+
+  for(int c = 1; c < n; c++) {
+  cout << c << endl;
+  }
+  
   return 0;
 }
